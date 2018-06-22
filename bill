@@ -1,0 +1,33 @@
+<h1>Bill</h1>
+<div class="address">
+<<borrowers.streetnumber>>
+<<borrowers.address>>
+<<borrowers.address2>>
+<<borrowers.city>><<borrowers.state>><<borrowers.zipcode>>
+</div>
+<div class="content">
+
+<<today>>
+
+<br/>
+Dear <<borrowers.firstname>> <<borrowers.surname>>,
+
+This is a bill for the replacement cost of item(s) on loan to you which have not been returned.
+Any restrictions on your account may be removed on the return of the overdue item(s) or payment of the replacement fee if the items are lost.
+
+If you have any queries regarding this notice, please reply to this email.
+
+Kind regards,
+
+Library Staff
+
+<h3>List of items now overdue</h3>
+
+<item>"<<biblio.title>>" by <<biblio.author>>, <<items.itemcallnumber>>, Barcode: <<items.barcode>></item>
+<<branches.branchname>> Staff
+<<branches.branchaddress1>>
+<<branches.branchcity>><<branches.branchstate>><<branches.branchzip>>
+<<branches.branchphone>><<branches.branchemail>>
+<<branches.branchreplyto>>
+<<branches.branchurl>>
+</div>
