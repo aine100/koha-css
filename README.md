@@ -7,3 +7,4 @@ CSS for Yeats Library Koha Installation
 ## window.css
 sys pref NoticeCSS
 This is for windowed envelopes
+envelope is banner re-order code 900-1001
