@@ -11,7 +11,7 @@ pre { font-size: 10pt; }
 }
 
 .billing_notice, body {
- font-size:12px;
+ font-size:14px;
  font-family:'Times New Roman';   
     
 }
@@ -21,20 +21,11 @@ pre { font-size: 10pt; }
     
 }
 
-/* gh pages branchSuitable for #10 Window Envelope
- * with 1.125" x 4.5" window, 0.875 from left margin.
- * Adjustments may be needed to top and left, based on
- * printer margins.
- *
- * See http://www.windowenvelopes.com/envelope_sizes_a/257.htm
- * 
- * It is good practice to do a 'tap test' when choosing envelope
- * window dimensions -- fold and stuff the envelope, then tap
- * the envelope against a hard surface to make sure that the
- * address block still shows when the mailer shifts inside the
- * envelope; there should be 1/4" clearance at the bottom.
- * 
- * */
+/* gh pages branch is linkable one. Suits a window enveolpe with Banner reorder code 900-1001
+22 cm wide, and 11cm high. 
+window is 2 cm from left edge and 5.3 cm from top.
+Aine Meehan
+*/
 
 div.address {
     position: relative;
