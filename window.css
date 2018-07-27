@@ -1,6 +1,6 @@
 
 pre { font-family: "Arial Black", sans-serif; }
-pre { font-size: 12pt; }
+pre { font-size: 14pt; }
 
 .message {
     top::0px;
@@ -29,31 +29,31 @@ Aine Meehan
 
 div.address {
     position: relative;
-    border 0px;
+    border 1px;
     padding 0px;
     margin 0px;
-    top: -0.375in;
-    left: 0.800in;
-    width: 4.5in;
-    height: 1.125in;
+    top: -0.375cm;
+    left: 0.800cm;
+    width: 9cm;
+    height: 4cm;
 }
 
 div.return_address {
     position: relative;
-    border 0px;
+    border 1px;
     padding 0px;
     margin 0px;
-    top: 0.50in;
-    left: 0.800in;
-    width: 3.5in;
-    height: 1.125in;
+    top: 0.50cm;
+    left: 0.800cm;
+    width: 4cm;
+    height: 9cm;
 }
 
 /* Content will appear in the bottom 2/3 of a letter size page when printed. */
 div.content {
     position: relative;
-    top: -.250in;
-    left: 0.0in;
+    top: -.250cm;
+    left: 0.0cm;
 }
 
 @media screen {
