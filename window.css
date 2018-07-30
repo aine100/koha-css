@@ -42,7 +42,7 @@ div.library_address {
     padding 0px;
     margin 0px;
     top: -1cm;
-    left: 15cm;
+    left: 14cm;
     width: 4cm;
     height: 9cm;
 }
@@ -58,7 +58,7 @@ div.content {
     .page-break {
         display: block;
         page-break-before: always;
-        h1{color:#FFAB4A;/*PEACH*/
+       
     }
 
 }
@@ -73,4 +73,4 @@ div.content {
    
 }
 
-h1{color:#FF0000;}/*RED*/
+
