@@ -1,5 +1,5 @@
 
-h1{color:#ce40ad;}
+
 pre { font-family: "Arial Black", sans-serif; }
 pre { font-size: 14px; }
 
@@ -61,6 +61,7 @@ div.content {
     .page-break {
         display: block;
         page-break-before: always;
+        h1{color:#FF0000;
     }
     .billing_notice, body {
  font-size:14px;
