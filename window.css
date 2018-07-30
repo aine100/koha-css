@@ -57,19 +57,4 @@ div.content {
     left: 0.0cm;
 }
 
-@media screen {
-    .page-break {
-        display: block;
-        page-break-before: always;
-        font-family:'Times New Roman';color:#800000;
-    }
-}
-
-@media print {
-    .page-break {
-        display: block;
-        page-break-before: always;
-        font-family:'Times New Roman';color:#800000;
-    }
-}
 
