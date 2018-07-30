@@ -1,4 +1,5 @@
 
+@media print{
 pre { font-family: "Arial Black", sans-serif; }
 pre { font-size: 14px; }
 
@@ -69,4 +70,4 @@ div.content {
         page-break-before: always;
     }
 }
-
+}
