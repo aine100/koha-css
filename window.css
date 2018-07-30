@@ -61,7 +61,7 @@ div.content {
     .page-break {
         display: block;
         page-break-before: always;
-        h1{color:#FF0000;
+        h1{color:#FFAB4A;/*PEACH*/
     }
 
 }
@@ -76,4 +76,4 @@ div.content {
    
 }
 
-h1{color:#FF0000;}
+h1{color:#FF0000;}/*RED*/
