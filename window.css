@@ -63,11 +63,7 @@ div.content {
         page-break-before: always;
         h1{color:#FF0000;
     }
-    .billing_notice, body {
- font-size:14px;
- font-family:'Times New Roman';color:#CC70FF;
 
-}
 }
 
 @media print {
@@ -76,20 +72,7 @@ div.content {
              page-break-before: always;
              }
     
-            .billing_notice, body {
-             font-size:14px;
-             font-family:'Times New Roman';
-             color:#80C635;
-            }
-    .library_address {
-    position: relative;
-    border 1px;
-    padding 0px;
-    margin 0px;
-    top: 0.50cm;
-    left: 20cm;
-    width: 4cm;
-    height: 9cm;
-}
+          
+   
 }
 
