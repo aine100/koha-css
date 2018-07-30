@@ -28,7 +28,7 @@ window is 2 cm from left edge and 5.3 cm from top.
 Aine Meehan
 */
 
-div.address {
+div.patron_address {
     position: relative;
     border 1px;
     padding 0px;
@@ -39,7 +39,7 @@ div.address {
     height: 4cm;
 }
 
-div.return_address {
+div.library_address {
     position: relative;
     border 1px;
     padding 0px;
