@@ -70,16 +70,17 @@ div.content {
 }
 
 @media print {
-    .page-break {
-        display: block;
-        page-break-before: always;
-    }
-    .billing_notice, body {
- font-size:14px;
- font-family:'Times New Roman';color:#80C635;
-
-}
-    div.library_address {
+            .page-break {
+             display: block;
+             page-break-before: always;
+             }
+    
+            .billing_notice, body {
+             font-size:14px;
+             font-family:'Times New Roman';
+             color:#80C635;
+            }
+    .library_address {
     position: relative;
     border 1px;
     padding 0px;
