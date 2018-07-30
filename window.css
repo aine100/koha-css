@@ -17,7 +17,7 @@ pre { font-size: 14px; }
 
 }
 
-.return_address_top {
+.library_address_top {
  margin-bottom:15px;
 
 }
@@ -45,7 +45,7 @@ div.library_address {
     padding 0px;
     margin 0px;
     top: 0.50cm;
-    left: 0.800cm;
+    left: 20cm;
     width: 4cm;
     height: 9cm;
 }
