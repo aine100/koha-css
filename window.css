@@ -10,9 +10,9 @@ pre { font-size: 10pt; }
     margin: 0px;
 }
 
-.billing_notice, body {
- font-size:12px;
- font-family:'Times New Roman';   
+ .billing_notice, body {
+ font-size:14px;
+ font-family:'Times New Roman';color:#800000; 
     
 }
 
