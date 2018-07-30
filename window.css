@@ -30,7 +30,7 @@ Aine Meehan
 
 div.patron_address {
     position: relative;
-    border 1px;
+    border 0px;
     padding 0px;
     margin 0px;
     top: -0.375cm;
@@ -41,11 +41,11 @@ div.patron_address {
 
 div.library_address {
     position: relative;
-    border 1px;
+    border 0px;
     padding 0px;
     margin 0px;
     top: 0.50cm;
-    left: 20cm;
+    left: 10cm;
     width: 4cm;
     height: 9cm;
 }
