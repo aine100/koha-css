@@ -13,17 +13,17 @@ pre { font-size: 14px; }
 
 .billing_notice, body {
  font-size:14px;
- font-family:'Times New Roman';color:#800000;  
-    
+ font-family:'Times New Roman';color:#800000;
+
 }
 
 .return_address_top {
- margin-bottom:15px;   
-    
+ margin-bottom:15px;
+
 }
 
 /* gh pages branch is linkable one. Suits a window enveolpe with Banner reorder code 900-1001
-22 cm wide, and 11cm high. 
+22 cm wide, and 11cm high.
 window is 2 cm from left edge and 5.3 cm from top.
 Aine Meehan
 */
@@ -57,4 +57,17 @@ div.content {
     left: 0.0cm;
 }
 
+@media screen {
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+}
+
+@media print {
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+}
 
