@@ -17,10 +17,7 @@ pre { font-size: 14px; }
 
 }
 
-.library_address_top {
- margin-bottom:5px;
 
-}
 
 /* gh pages branch is linkable one. Suits a window enveolpe with Banner reorder code 900-1001
 22 cm wide, and 11cm high.
@@ -44,7 +41,7 @@ div.library_address {
     border 0px;
     padding 0px;
     margin 0px;
-    top: -0.50cm;
+    top: -3cm;
     left: 15cm;
     width: 4cm;
     height: 9cm;
