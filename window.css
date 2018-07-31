@@ -1,6 +1,5 @@
 
-@charset "UTF-8";
-@charset "iso-8859-15";
+
 pre { font-family: "Arial Black", sans-serif; }
 pre { font-size: 14px; }
 
@@ -64,15 +63,14 @@ div.content {
 
 }
 
-@media print {
+@media print { @charset "charset-name";
             .page-break {
              display: block;
              page-break-before: always;
              }
     
-          
+@charset "charset-name";          
    
 }
-@charset "UTF-8";
-@charset "iso-8859-15";
+
 
