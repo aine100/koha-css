@@ -50,7 +50,7 @@ div.library_address {
 /* Content will appear in the bottom 2/3 of a letter size page when printed. */
 div.content {
     position: relative;
-    top: -1cm;
+    top: -5cm;
     left: 0.0cm;
 }
 
