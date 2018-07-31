@@ -41,7 +41,7 @@ div.library_address {
     border 0px;
     padding 0px;
     margin 0px;
-    top: -2cm;
+    top: -1cm;
     left: 13cm;
     width: 4cm;
     height: 9cm;
@@ -50,7 +50,7 @@ div.library_address {
 /* Content will appear in the bottom 2/3 of a letter size page when printed. */
 div.content {
     position: relative;
-    top: 2cm;
+    top: 1cm;
     left: 0.0cm;
 }
 
