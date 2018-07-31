@@ -1,5 +1,6 @@
 
-
+@charset "UTF-8";
+@charset "iso-8859-15";
 pre { font-family: "Arial Black", sans-serif; }
 pre { font-size: 14px; }
 
@@ -72,5 +73,6 @@ div.content {
           
    
 }
-
+@charset "UTF-8";
+@charset "iso-8859-15";
 
