@@ -24,7 +24,15 @@ pre { font-size: 14px; }
 window is 2 cm from left edge and 5.3 cm from top.
 Aine Meehan
 */
-
+div.date{   position: relative;
+    border 0px;
+    padding 0px;
+    margin 0px;
+    top: -5cm;
+    left: 0.700cm;
+    width: 9cm;
+    height: 4cm;
+}
 div.patron_address {
     position: relative;
     border 0px;
@@ -50,7 +58,7 @@ div.library_address {
 /* Content will appear in the bottom 2/3 of a letter size page when printed. */
 div.content {
     position: relative;
-    top: -.250cm;
+    top: -.150cm;
     left: 0.0cm;
 }
 
