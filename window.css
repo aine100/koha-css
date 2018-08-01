@@ -1,6 +1,7 @@
 
+
 pre { font-family: "Arial Black", sans-serif; }
-pre { font-size: 10pt; }
+pre { font-size: 14px; }
 
 .message {
     top::0px;
@@ -11,71 +12,65 @@ pre { font-size: 10pt; }
 }
 
 .billing_notice, body {
- font-size:12px;
- font-family:'Times New Roman';   
-    
+ font-size:14px;
+ color:#000;
+
 }
 
-.return_address_top {
- margin-bottom:15px;   
-    
-}
 
-/* Suitable for #10 Window Envelope
- * with 1.125" x 4.5" window, 0.875 from left margin.
- * Adjustments may be needed to top and left, based on
- * printer margins.
- *
- * See http://www.windowenvelopes.com/envelope_sizes_a/257.htm
- * 
- * It is good practice to do a 'tap test' when choosing envelope
- * window dimensions -- fold and stuff the envelope, then tap
- * the envelope against a hard surface to make sure that the
- * address block still shows when the mailer shifts inside the
- * envelope; there should be 1/4" clearance at the bottom.
- * 
- * */
 
-div.address {
+/* gh pages branch is linkable one. Suits a window enveolpe with Banner reorder code 900-1001
+22 cm wide, and 11cm high.
+window is 2 cm from left edge and 5.3 cm from top.
+Aine Meehan
+*/
+
+div.patron_address {
     position: relative;
     border 0px;
     padding 0px;
     margin 0px;
-    top: -0.375in;
-    left: 0.800in;
-    width: 4.5in;
-    height: 1.125in;
+    top: -9cm;
+    left: 1cm;
+    width: 9cm;
+    height: 4cm;
 }
 
-div.return_address {
+div.library_address {
     position: relative;
     border 0px;
     padding 0px;
     margin 0px;
-    top: 0.50in;
-    left: 0.800in;
-    width: 3.5in;
-    height: 1.125in;
+    top: -1cm;
+    left: 13cm;
+    width: 4cm;
+    height: 9cm;
 }
 
 /* Content will appear in the bottom 2/3 of a letter size page when printed. */
 div.content {
     position: relative;
-    top: -.250in;
-    left: 0.0in;
+    top: -5cm;
+    left: 0.0cm;
 }
 
 @media screen {
     .page-break {
         display: block;
         page-break-before: always;
+       
     }
+
 }
 
-@media print {
-    .page-break {
-        display: block;
-        page-break-before: always;
-    }
+@media print { 
+            .page-break {
+             display: block;
+             page-break-before: always;
+             }
+    
+         
+   
 }
+
 
