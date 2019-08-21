@@ -2,7 +2,7 @@
 CSS for Yeats Library Koha Installation
 ### Helpful Links
 ##### Koha Theming Wiki [GitHub Pages](https://wiki.koha-community.org/wiki/Koha_simple_themeing_guide/).
-##### [Ze Manual] (https://koha-community.org/manual/17.11/en/html/)
+##### [Ze Manual] (https://koha-community.org/manual//18.11/en/html/tools.html#notices-slips)
 
 ## window.css
 sys pref NoticeCSS
